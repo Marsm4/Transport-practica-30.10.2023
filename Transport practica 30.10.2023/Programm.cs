@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using TransportManagement; 
+using TransportManagement;
 
 class Program
 {
@@ -21,6 +21,70 @@ class Program
         foreach (Transport transport in transports)
         {
             if (transport.GetType().Name == selectedType)
+            {
+                Console.WriteLine($"{transport.Model} - {(transport.IsRented ? "Арендован" : "Не арендован")}");
+            }
+        }
+
+
+        Console.WriteLine("Выберите тип транспорта (Boat, Car, Bicycle, Motorcycle, Scooter):");
+        string selectedType2 = Console.ReadLine();
+
+        Console.WriteLine($"Аренда для выбранного типа транспорта {selectedType2}:");
+        foreach (Transport transport in transports)
+        {
+            if (transport.GetType().Name == selectedType2)
+            {
+                Console.WriteLine($"{transport.Model} - {(transport.IsRented ? "Арендован" : "Не арендован")}");
+            }
+        }
+
+
+        Console.WriteLine("Выберите тип транспорта (Boat, Car, Bicycle, Motorcycle, Scooter):");
+        string selectedType3 = Console.ReadLine();
+
+        Console.WriteLine($"Аренда для выбранного типа транспорта {selectedType3}:");
+        foreach (Transport transport in transports)
+        {
+            if (transport.GetType().Name == selectedType3)
+            {
+                Console.WriteLine($"{transport.Model} - {(transport.IsRented ? "Арендован" : "Не арендован")}");
+            }
+        }
+
+
+        Console.WriteLine("Выберите тип транспорта (Boat, Car, Bicycle, Motorcycle, Scooter):");
+        string selectedType4 = Console.ReadLine();
+
+        Console.WriteLine($"Аренда для выбранного типа транспорта {selectedType4}:");
+        foreach (Transport transport in transports)
+        {
+            if (transport.GetType().Name == selectedType4)
+            {
+                Console.WriteLine($"{transport.Model} - {(transport.IsRented ? "Арендован" : "Не арендован")}");
+            }
+        }
+
+
+        Console.WriteLine("Выберите тип транспорта (Boat, Car, Bicycle, Motorcycle, Scooter):");
+        string selectedType5 = Console.ReadLine();
+
+        Console.WriteLine($"Аренда для выбранного типа транспорта {selectedType5}:");
+        foreach (Transport transport in transports)
+        {
+            if (transport.GetType().Name == selectedType5)
+            {
+                Console.WriteLine($"{transport.Model} - {(transport.IsRented ? "Арендован" : "Не арендован")}");
+            }
+        }
+
+        Console.WriteLine("Выберите тип транспорта (Boat, Car, Bicycle, Motorcycle, Scooter):");
+        string selectedType6 = Console.ReadLine();
+
+        Console.WriteLine($"Аренда для выбранного типа транспорта {selectedType6}:");
+        foreach (Transport transport in transports)
+        {
+            if (transport.GetType().Name == selectedType6)
             {
                 Console.WriteLine($"{transport.Model} - {(transport.IsRented ? "Арендован" : "Не арендован")}");
             }
