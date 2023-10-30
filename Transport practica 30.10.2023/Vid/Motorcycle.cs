@@ -5,7 +5,10 @@ using TransportManagement;
 class Motorcycle : Transport
 {
     public string LicenseCategory { get; set; }
+
     public bool HasMotor { get; set; }
+
+    public int NumberOfWheels { get; set; }
 
     public override void PrintInfo()
     {
@@ -16,6 +19,7 @@ class Motorcycle : Transport
         Console.WriteLine("Is Rented: " + IsRented);
         Console.WriteLine("License Category: " + LicenseCategory);
         Console.WriteLine("Has Motor: " + HasMotor);
+        Console.WriteLine("Number of Wheels: " + NumberOfWheels);
         Console.WriteLine();
     }
 }

@@ -5,6 +5,7 @@ using TransportManagement;
 class Car : Transport
 {
     public string Category { get; set; }
+    public int NumberOfWheels { get; set; }
 
     public override void PrintInfo()
     {
@@ -14,6 +15,7 @@ class Car : Transport
         Console.WriteLine("Speed: " + Speed);
         Console.WriteLine("Is Rented: " + IsRented);
         Console.WriteLine("Category: " + Category);
+        Console.WriteLine("Number of Wheels: " + NumberOfWheels);
         Console.WriteLine();
     }
 }

@@ -3,7 +3,9 @@ using System.Reflection;
 using TransportManagement;
 
 class Scooter : Transport
-{
+{ 
+     public int NumberOfWheels { get; set; }
+
     public override void PrintInfo()
     {
         Console.WriteLine("Scooter:");
@@ -11,6 +13,7 @@ class Scooter : Transport
         Console.WriteLine("Color: " + Color);
         Console.WriteLine("Speed: " + Speed);
         Console.WriteLine("Is Rented: " + IsRented);
-        Console.WriteLine();
+    Console.WriteLine("Number of Wheels: " + NumberOfWheels);
+    Console.WriteLine();
     }
 }

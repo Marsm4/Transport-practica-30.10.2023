@@ -8,10 +8,10 @@ class Program
 
         // Добавляем транспорт в список
         transports.Add(new Boat { Model = "Boat1", Color = "Blue", Speed = 30, IsRented = false });
-        transports.Add(new Car { Model = "Car1", Color = "Red", Speed = 150, IsRented = true, Category = "B" });
-        transports.Add(new Bicycle { Model = "Bicycle1", Color = "Green", Speed = 20, IsRented = false, NumberOfWheels = 2 });
-        transports.Add(new Motorcycle { Model = "Motorcycle1", Color = "Black", Speed = 200, IsRented = true, LicenseCategory = "A", HasMotor = true });
-        transports.Add(new Scooter { Model = "Scooter1", Color = "Yellow", Speed = 15, IsRented = false });
+        transports.Add(new Car { Model = "Volga", Color = "Red", Speed = 150, IsRented = true, Category = "B", NumberOfWheels = 4 });
+        transports.Add(new Bicycle { Model = "Stels", Color = "Green", Speed = 20, IsRented = false, NumberOfWheels = 2 });
+        transports.Add(new Motorcycle { Model = "Olimp", Color = "Black", Speed = 200, IsRented = true, LicenseCategory = "A", HasMotor = true, NumberOfWheels = 2 });
+        transports.Add(new Scooter { Model = "Stern", Color = "Yellow", Speed = 15, IsRented = false, NumberOfWheels = 2 });
 
         // Выводим транспорт в консоль по типам
         Console.WriteLine("Boats:");
