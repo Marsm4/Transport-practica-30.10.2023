@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using TransportManagement; // Подразумевается, что классы Boat, Car, Bicycle, Motorcycle и Scooter наследуют класс Transport
+using TransportManagement; 
 
 class Program
 {
